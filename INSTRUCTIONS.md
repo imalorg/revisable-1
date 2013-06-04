@@ -45,11 +45,11 @@ Strings can criss-cross from the front and the bottom. A crossing should be decl
     C2/1:8:10:(>1:8)11/C1/5:9/07-20-13
      a    b     c      d   e     f
 
-a: Choice of the first string
-b: First string path
-c: The segment 10:11 of the first string cross the segment 1:5 from behind to front
-d: Choice of the second string
-e: Second string path
+a: Choice of the first string  
+b: First string path  
+c: The segment 10:11 of the first string cross the segment 1:5 from behind to front  
+d: Choice of the second string  
+e: Second string path  
 f: Date of the intervention
 
 The code above will produce the following composition:

@@ -11,7 +11,7 @@ function post_receive($encoded_json) {
 }
 
 function cache_all() {
-	$context = stream_context_create(array('http' => array('header' => 'User-Agent: 1962 website')));
+	$context = stream_context_create(array('http' => array('header' => 'User-Agent: Révisable 1 website')));
 	$url = 'https://api.github.com/repos/'.GITHUB_USER.'/'.GITHUB_REPO.'/git/trees/'.GITHUB_BRANCH.'?recursive=1';
   $branch = json_decode(file_get_contents($url, FALSE, $context));
 	$tree = $branch->tree;

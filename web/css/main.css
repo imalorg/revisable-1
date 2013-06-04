@@ -26,12 +26,7 @@ header #viewbox{
 	clear:both;
 	position:relative;
 }
-body.textboxes #viewbox, body.textboxes #tree{
-	visibility:hidden;
-}
-body.textboxes{
-	overflow-y:hidden;
-}
+
 .caption{
 	font-family:"source_code_pro", courier new, monospace;
 	font-size:13px;
@@ -41,21 +36,14 @@ body.textboxes{
 	padding:7px 9px 12px 9px;
 	border:1px solid black;
 }
-#tree{
+.contentbox{
 	margin:50px 0 0 200px;
 }
 #textboxes{
-	display:none;
-	position:fixed;
-	overflow-y:scroll;
 	padding:0px 0 0 200px;
 	margin:0 0 50px 0;
-	top:0px;
-	left:0px;
 	width:100%;
-	background:gold;
 	z-index:3;
-	background:white;	
 }
 div.textbox{
 	width:100%;
@@ -64,14 +52,13 @@ div.textbox{
 footer{
 }
 .vbox{
-	width:200px;
+	width:320px;
 	margin:100px 100px 100px 0;
 }
 .vbox img{
 	display:block;
-    cursor:pointer;
-	width:200px;
-	height:300px;
+	width:240px;
+	height:320px;
 	background:#DDE0E3 url(img/wait.png) no-repeat center center;
 	font-family:"source_code_pro", courier new, monospace;
 	font-size:12px;
@@ -178,6 +165,9 @@ pre{
 	font-size:15px;
 	line-height:21px;
 	letter-spacing:1px;
+    background:#DDE0E3;
+    padding:3px;
+    margin-bottom:5px;
 }
 .readme ol,.readme ul{
 	list-style-type:decimal;

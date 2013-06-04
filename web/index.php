@@ -3,6 +3,7 @@
 require_once './markdown.php';
 
 $readme = file_get_contents('../README.md');
+$instructions = file_get_contents('../INSTRUCTIONS.md');
 $piece = file_get_contents('../PIECE');
 $contributors = file_get_contents('../CONTRIBUTORS');
 ?>
@@ -14,7 +15,9 @@ $contributors = file_get_contents('../CONTRIBUTORS');
 	<meta name="description" content="Révisable 1 is a physical sculptures based on Git and initiated by Raphaël Bastide">
 	<link rel="stylesheet" media="all" href="css/main.css">
 	<link rel="shortcut icon" href="css/img/favicon.gif" type="image/x-icon" />
-	<link href="https://github.com/imalorg/revisable-1/commits/master.atom" rel="alternate" title="Recent commits for Révisable 1" type="application/atom+xml" /><body>
+	<link href="https://github.com/imalorg/revisable-1/commits/master.atom" rel="alternate" title="Recent commits for Révisable 1" type="application/atom+xml" />
+</head>
+	<body>
 	<header>
 		<div class="titles">
 			<h1>Réviasble 1</h1>
@@ -45,12 +48,13 @@ $contributors = file_get_contents('../CONTRIBUTORS');
 			<h2>Current state of the PIECE file</h2>
 			<pre><?php echo markdown($piece); ?></pre>
 		</div>
+		<div class="instructions textbox">
+			<?php echo markdown($instructions); ?>
+		</div>
 		<div class="contributors textbox">
 			<h2>Contributors</h2>
 			<pre><?php echo $contributors ?></pre>
 		</div>
-		<footer>
-		</footer>
 	</div>
 	<div class="frame"></div>
 	<script src="js/libs/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
