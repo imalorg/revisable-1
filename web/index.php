@@ -1,16 +1,10 @@
 <?php
 
-require_once __DIR__ . '/config.php';
-require_once __DIR__ . '/lib.php';
-require_once __DIR__ . '/markdown.php';
+require_once './markdown.php';
 
-if (!file_exists(__DIR__. '/cache/README.md')) {
-  cache_all();
-}
-
-$readme = file_get_contents(__DIR__. '/cache/README.md');
-$piece = file_get_contents(__DIR__ . '/cache/PIECE');
-$contributors = file_get_contents(__DIR__ . '/cache/CONTRIBUTORS');
+$readme = file_get_contents('../README.md');
+$piece = file_get_contents('../PIECE');
+$contributors = file_get_contents('../CONTRIBUTORS');
 ?>
 <!doctype html>
 <head>
@@ -34,7 +28,7 @@ $contributors = file_get_contents(__DIR__ . '/cache/CONTRIBUTORS');
 	<div id="tree" class="contentbox">
 		<div class="inner">
 			<div class="vbox" id="v0_9_3">
-				<img width="200" title="1962 v0.9.3" alt="1962 v0.9.3" src="img/0_9_3.jpg" />
+				<img width="320" height="240" title="Révisable 1 v0.1" src="img/test.gif" />
 				<ul class="caption">
 					<li class="version">version: 0.9.3</li>
 					<li class="date">date: 2013-05-28</li>
