@@ -11,5 +11,5 @@ For more details about the project’s language its architecture and participati
 ## About
 
 This project is under [MIT LICENSE](http://raphael.mit-license.org/).  
-Initiated by Raphaël Bastide in february 2012.
+Initiated by Raphaël Bastide in May 2013.
 Contact: bonjour/at/raphaelbastide.com
