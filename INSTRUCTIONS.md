@@ -32,9 +32,12 @@ a: Choice of the string.
 b: Declaration of the path of the rigging
 c: Date of the intervention based on the format: mm-dd-yy
 
-The code above will produce the following composition:
+#### Demo
 
-![revisable grid](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/revisable-grid.png)
+    C1/6:9:28/15:14:27/07-20-13
+
+![Demo](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/demo-revisable-1.png)
+
 
 #### Advanced compositions
 
@@ -81,8 +84,3 @@ is equal to:
     9
     07/20/13
  
-#### Demo
-
-    C1/6:9:28/15:14:27/07-20-13
-
-![Demo](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/demo-revisable-1.png)
