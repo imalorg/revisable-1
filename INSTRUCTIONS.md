@@ -85,4 +85,4 @@ is equal to:
 
     C1/6:9:28/15:14:27/07-20-13
 
-![Demo](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/demo.png)
+![Demo](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/demo-revisable-1.png)
