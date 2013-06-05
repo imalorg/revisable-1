@@ -46,18 +46,18 @@ Several strings can be used in the same composition consequently, each path must
 Strings can criss-cross from the front and the bottom. A crossing should be declared unsing parenthesis and the signs `<` and `>` will specify id the crissing occur respectively from front to behind or from behind to front.
 
     C2/1:8:10:(>1:8)11/C1/5:9/07-20-13
-     a    b     c      d   e     f
+    a    b      c      d   e     f
 
 a: Choice of the first string  
 b: First string path  
-c: The segment 10:11 of the first string cross the segment 1:5 from behind to front  
+c: The segment 10:11 of the first string cross the segment 1:8 from behind to front  
 d: Choice of the second string  
 e: Second string path  
 f: Date of the intervention
 
 The code above will produce the following composition:
 
-![revisable grid](../media/extra/doc-media/revisable-grid-advanced.png)
+![revisable grid](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/revisable-grid-advanced.png)
 
 #### String choice
 
