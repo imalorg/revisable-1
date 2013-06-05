@@ -6,12 +6,12 @@ Visitors present in the exhibition space can act on the installation by followin
 1. Fill the form below describing your identity and your intervention on the piece
 2. Give back the form to a member of iMAL
 3. Wait for a notification by email about the validation or refusal of your intervention (technical impossibility or complete calendar)
-4. Your intervention is exposed during a week at iMAL and archived online on:
+4. Your intervention is exposed during a week at iMAL and archived online on this website.
 
 ## Online intervention
 
 This kind of intervention requires the knowledge of the distributed revision control system Git.
-It is possible for online visitors to clone the Git repository of "Révisable 1" and submit  a pull request. The repository URL is:
+It is possible for online visitors to clone the Git repository of "Révisable 1" and submit  a pull request. The repository URL is: [https://github.com/imalorg/revisable-1/](https://github.com/imalorg/revisable-1/)  
 The file to edit is named "PIECE" and located at the root of the repository.
 
 ## Advanced Intervention
@@ -54,13 +54,13 @@ f: Date of the intervention
 
 The code above will produce the following composition:
 
-![revisable grid](media/extra/doc-media/revisable-grid-advanced.png)
+![revisable grid](../media/extra/doc-media/revisable-grid-advanced.png)
 
 #### String choice
 
-- C1: 1m Black elastic - [image](media/extra/doc-media/black-elastic.png)
-- C2: 3m Black elastic - [image](media/extra/doc-media/black-elastic.png)
-- C3: 5m Black elastic - [image](media/extra/doc-media/black-elastic.png)
+- C1: 1m Black elastic - [image](../media/extra/doc-media/black-elastic.png)
+- C2: 3m Black elastic - [image](../media/extra/doc-media/black-elastic.png)
+- C3: 5m Black elastic - [image](../media/extra/doc-media/black-elastic.png)
 - C4: 2m Red velvet string barrier with chrome hooks - [image](media/extra/doc-media/velvet-rope.png)
 
 #### Alternative writing
@@ -83,3 +83,8 @@ is equal to:
     9
     07/20/13
  
+#### Demo
+
+    C1/6:9:28/15:14:27/07-20-13
+
+![Demo](../media/extra/doc-media/demo.png)
