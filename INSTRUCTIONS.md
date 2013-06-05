@@ -34,7 +34,7 @@ c: Date of the intervention based on the format: mm-dd-yy
 
 The code above will produce the following composition:
 
-![revisable grid](media/extra/doc-media/revisable-grid.png)
+![revisable grid](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/revisable-grid.png)
 
 #### Advanced compositions
 
@@ -58,10 +58,8 @@ The code above will produce the following composition:
 
 #### String choice
 
-- C1: 1m Black elastic - [image](../media/extra/doc-media/black-elastic.png)
-- C2: 3m Black elastic - [image](../media/extra/doc-media/black-elastic.png)
-- C3: 5m Black elastic - [image](../media/extra/doc-media/black-elastic.png)
-- C4: 2m Red velvet string barrier with chrome hooks - [image](media/extra/doc-media/velvet-rope.png)
+- C1: Black elastic - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/black-elastic.png)
+- C2: 1.5m Red plait rope with golden hooks - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/red-rope.jpg)
 
 #### Alternative writing
 
@@ -87,4 +85,4 @@ is equal to:
 
     C1/6:9:28/15:14:27/07-20-13
 
-![Demo](../media/extra/doc-media/demo.png)
+![Demo](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/demo.png)
