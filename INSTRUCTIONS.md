@@ -3,7 +3,7 @@
 
 Visitors present in the exhibition space can act on the installation by following the protocol:
 
-1. Fill the form below describing your identity and your intervention on the piece
+1. Fill the form describing your identity and your intervention on the piece
 2. Give back the form to a member of iMAL
 3. Wait for a notification by email about the validation or refusal of your intervention (technical impossibility or complete calendar)
 4. Your intervention is exposed during a week at iMAL and archived online on this website.
