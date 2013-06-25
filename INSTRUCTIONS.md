@@ -62,7 +62,7 @@ The code above will produce the following composition:
 #### String choice
 
 - C1: Black elastic - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/black-elastic.png)
-- C2: 1.5m Red plait rope with golden hooks - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/red-rope.jpg)
+- C2: 1.5m red plait rope with golden hooks - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/red-rope.jpg)
 
 #### Alternative writing
 
