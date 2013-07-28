@@ -61,8 +61,8 @@ The code above will produce the following composition:
 
 #### String choice
 
-- C1: Black elastic - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/black-elastic.png)
-- C2: 1.5m red plait rope with golden hooks - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/red-rope.jpg)
+- C1: Black elastic - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/black-elastic.png) Quantity: a total of 100m, in many sizes
+- C2: 1.5m red plait rope with golden hooks - [image](https://raw.github.com/raphaelbastide/1962/master/media/extra/doc-media/red-rope.jpg). Quantity: 3 ropes
 
 #### Alternative writing
 
