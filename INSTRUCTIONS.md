@@ -43,7 +43,7 @@ c: Date of the intervention based on the format: mm-dd-yy
 
 Several strings can be used in the same composition consequently, each path must be declared after a [string choice](#string-choice) `C2/2:4:7`.
 
-Strings can criss-cross from the front and the bottom. A crossing should be declared unsing parenthesis and optional signs `<` or `>` will specify id the crissing occur respectively from front to behind or from behind to front. If none of `<` or `>` is given, the more direct crossing will be chosen.
+Strings can criss-cross from the front and the bottom. A crossing should be declared unsing parenthesis and optional signs `<` or `>` will specify if the crissing occur respectively from front to behind or from behind to front. If none of `<` or `>` is given, the more direct crossing will be chosen.
 
     C2/1:8:10:(>1:8)11/C1/5:9/07-20-13
     a    b      c      d   e     f
